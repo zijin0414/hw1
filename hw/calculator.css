@@ -1,0 +1,44 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calc-display{
+  grid-column: 57;
+  text-align: right;
+  height: 50px;
+  margin: 40px 10px 30px;
+  width: 300px;
+  font-size: 30px;
+  border-width: 2px;
+  padding-right: 10px;
+}
+
+.btn-digit, .btn-operator, .btn-empty{
+  margin: 10px;
+  width: 60px;
+  height: 50px;
+  border-radius: 20%;
+  border-width: 2px;
+}
+
+.btn-empty{
+  opacity: 0%;
+}
+
+.btn-digit{
+  background-color: #fdcfdf;
+}
+
+.btn-operator{
+  background-color: #bce6eb;
+}
+
+.btn-digit:hover{
+  background-color: #fbbedf;
+}
+
+.btn-operator:hover{
+  background-color: #9ad3bc;
+}
